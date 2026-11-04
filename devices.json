@@ -1,8 +1,10 @@
 {
   "devices": {
+    "27800830": true,
     "65165993": true
   },
   "comments": {
+    "27800830": "alon dukat pc",
     "65165993": "my laptop"
   }
 }
