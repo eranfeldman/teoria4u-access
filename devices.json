@@ -1,10 +1,8 @@
 {
   "devices": {
-    "52286875": true,
     "60548286": true
   },
   "comments": {
-    "52286875": "Temporary delete-button verification",
     "60548286": "my laptop"
   }
 }
