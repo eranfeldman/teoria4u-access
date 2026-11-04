@@ -1,8 +1,10 @@
 {
   "devices": {
-    "53179697": true
+    "53179697": true,
+    "75102097": false
   },
   "comments": {
+    "75102097": "Temporary dashboard verification",
     "81191053": ""
   }
 }
