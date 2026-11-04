@@ -2,7 +2,7 @@
 
 This repository is public. Never put passwords, API keys, private keys, or other secrets here.
 
-`devices.json` is an approval list. An entry is enabled only when its value is `true`; missing IDs and entries set to `false` are disabled. Example:
+Edit `devices.json` to approve device IDs. Set an ID to `true` to enable it, or `false` to disable it. Missing IDs are disabled. Keep the file valid JSON, with commas between entries:
 
 ```json
 {
@@ -13,4 +13,6 @@ This repository is public. Never put passwords, API keys, private keys, or other
 }
 ```
 
-The list is a work in progress: creating this repository alone does not activate enforcement or prevent copied IDs. IDs are public, so they are not passwords.
+Users find their ID and current status in the extension under Advanced. The extension checks the list when a solve starts; revocation does not interrupt a run already in progress. Uninstalling the extension or clearing its data creates a new ID.
+
+IDs are public and are not passwords. This is a simple approval list, not strong device security: an ID can be copied and the extension can be modified.
