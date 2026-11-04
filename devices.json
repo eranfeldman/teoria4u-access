@@ -1,4 +1,8 @@
 {
-  "devices": {},
-  "comments": {}
+  "devices": {
+    "65165993": true
+  },
+  "comments": {
+    "65165993": "my laptop"
+  }
 }
