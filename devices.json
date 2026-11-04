@@ -1,8 +1,10 @@
 {
   "devices": {
+    "17434914": true,
     "60548286": true
   },
   "comments": {
+    "17434914": "Temporary automatic cleanup verification",
     "60548286": "my laptop"
   }
 }
