@@ -1,8 +1,10 @@
 {
   "devices": {
+    "16249403": true,
     "53179697": true
   },
   "comments": {
+    "16249403": "my laptop",
     "53179697": "my laptop"
   }
 }
